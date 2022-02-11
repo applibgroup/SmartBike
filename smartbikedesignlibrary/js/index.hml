@@ -1,0 +1,13 @@
+<div class="container">
+    <image src="{{image}}" alt="image is loading">
+    </image>
+    <text style="color:white">Hello world</text>
+    <text style="color:white">Hello world</text>
+    <text style="color:white">Hello world</text>
+    <text style="color:white">Hello world</text>
+
+
+
+
+
+</div>
