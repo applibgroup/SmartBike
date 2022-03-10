@@ -1,11 +1,124 @@
-/******/ (() => { // webpackBootstrap
-/******/ 	var __webpack_modules__ = ({
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml?entry");
+/******/ })
+/************************************************************************/
+/******/ ({
 
-/***/ "./lib/json.js!./lib/style.js!../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.css":
-/*!*******************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/style.js!../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.css ***!
-  \*******************************************************************************************************************************************/
-/***/ ((module) => {
+/***/ "../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml?entry":
+/*!***************************************************************************************************************!*\
+  !*** /Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml?entry ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $app_template$ = __webpack_require__(/*! !../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/template.js!./index.hml */ "./lib/json.js!./lib/template.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml")
+var $app_style$ = __webpack_require__(/*! !../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/style.js!./index.css */ "./lib/json.js!./lib/style.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.css")
+var $app_script$ = __webpack_require__(/*! !../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/script.js!../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/babel-loader?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/resource-reference-script.js!./index.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.js")
+
+$app_define$('@app-component/index', [], function($app_require$, $app_exports$, $app_module$) {
+
+$app_script$($app_module$, $app_exports$, $app_require$)
+if ($app_exports$.__esModule && $app_exports$.default) {
+$app_module$.exports = $app_exports$.default
+}
+
+$app_module$.exports.template = $app_template$
+
+$app_module$.exports.style = $app_style$
+
+})
+$app_bootstrap$('@app-component/index',undefined,undefined)
+
+/***/ }),
+
+/***/ "./lib/json.js!./lib/style.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.css":
+/*!**************************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/style.js!/Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.css ***!
+  \**************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
 module.exports = {
   ".container1": {
@@ -22,18 +135,6 @@ module.exports = {
     "backgroundImage": "/common/images/indication_bg.png",
     "height": "68.14px",
     "width": "586px",
-    "borderTopWidth": "2px",
-    "borderRightWidth": "2px",
-    "borderBottomWidth": "2px",
-    "borderLeftWidth": "2px",
-    "borderTopStyle": "solid",
-    "borderRightStyle": "solid",
-    "borderBottomStyle": "solid",
-    "borderLeftStyle": "solid",
-    "borderTopColor": "#FF0000",
-    "borderRightColor": "#FF0000",
-    "borderBottomColor": "#FF0000",
-    "borderLeftColor": "#FF0000",
     "backgroundRepeat": "no-repeat",
     "backgroundPosition": "center",
     "justifyContent": "space-around",
@@ -52,36 +153,12 @@ module.exports = {
   ".left": {
     "width": "330px",
     "marginLeft": "53px",
-    "borderTopWidth": "2px",
-    "borderRightWidth": "2px",
-    "borderBottomWidth": "2px",
-    "borderLeftWidth": "2px",
-    "borderTopStyle": "solid",
-    "borderRightStyle": "solid",
-    "borderBottomStyle": "solid",
-    "borderLeftStyle": "solid",
-    "borderTopColor": "#008000",
-    "borderRightColor": "#008000",
-    "borderBottomColor": "#008000",
-    "borderLeftColor": "#008000",
     "display": "flex",
     "flexDirection": "column"
   },
   ".right": {
     "width": "393px",
     "height": "521px",
-    "borderTopWidth": "2px",
-    "borderRightWidth": "2px",
-    "borderBottomWidth": "2px",
-    "borderLeftWidth": "2px",
-    "borderTopStyle": "solid",
-    "borderRightStyle": "solid",
-    "borderBottomStyle": "solid",
-    "borderLeftStyle": "solid",
-    "borderTopColor": "#0000FF",
-    "borderRightColor": "#0000FF",
-    "borderBottomColor": "#0000FF",
-    "borderLeftColor": "#0000FF",
     "display": "flex",
     "flexDirection": "column",
     "alignItems": "center"
@@ -89,35 +166,11 @@ module.exports = {
   ".middle": {
     "width": "393px",
     "height": "521px",
-    "borderTopWidth": "2px",
-    "borderRightWidth": "2px",
-    "borderBottomWidth": "2px",
-    "borderLeftWidth": "2px",
-    "borderTopStyle": "solid",
-    "borderRightStyle": "solid",
-    "borderBottomStyle": "solid",
-    "borderLeftStyle": "solid",
-    "borderTopColor": "#FFFF00",
-    "borderRightColor": "#FFFF00",
-    "borderBottomColor": "#FFFF00",
-    "borderLeftColor": "#FFFF00",
     "display": "flex",
     "flexDirection": "column",
     "alignItems": "center"
   },
   ".caller": {
-    "borderTopWidth": "2px",
-    "borderRightWidth": "2px",
-    "borderBottomWidth": "2px",
-    "borderLeftWidth": "2px",
-    "borderTopStyle": "solid",
-    "borderRightStyle": "solid",
-    "borderBottomStyle": "solid",
-    "borderLeftStyle": "solid",
-    "borderTopColor": "#EE82EE",
-    "borderRightColor": "#EE82EE",
-    "borderBottomColor": "#EE82EE",
-    "borderLeftColor": "#EE82EE",
     "backgroundImage": "/common/images/middle/info_bg.png",
     "display": "flex",
     "flexDirection": "column",
@@ -158,19 +211,7 @@ module.exports = {
     "display": "flex",
     "flexDirection": "column",
     "marginTop": "20px",
-    "width": "241px",
-    "borderTopWidth": "1px",
-    "borderRightWidth": "1px",
-    "borderBottomWidth": "1px",
-    "borderLeftWidth": "1px",
-    "borderTopStyle": "solid",
-    "borderRightStyle": "solid",
-    "borderBottomStyle": "solid",
-    "borderLeftStyle": "solid",
-    "borderTopColor": "#008000",
-    "borderRightColor": "#008000",
-    "borderBottomColor": "#008000",
-    "borderLeftColor": "#008000"
+    "width": "241px"
   },
   ".musicbar": {
     "strokeWidth": "7px",
@@ -180,18 +221,6 @@ module.exports = {
   },
   ".musicButtons": {
     "width": "241px",
-    "borderTopWidth": "1px",
-    "borderRightWidth": "1px",
-    "borderBottomWidth": "1px",
-    "borderLeftWidth": "1px",
-    "borderTopStyle": "solid",
-    "borderRightStyle": "solid",
-    "borderBottomStyle": "solid",
-    "borderLeftStyle": "solid",
-    "borderTopColor": "#C71585",
-    "borderRightColor": "#C71585",
-    "borderBottomColor": "#C71585",
-    "borderLeftColor": "#C71585",
     "height": "54px",
     "marginTop": "35px",
     "alignItems": "center",
@@ -200,18 +229,6 @@ module.exports = {
   ".child-container3": {
     "height": "37px",
     "width": "100%",
-    "borderTopWidth": "1px",
-    "borderRightWidth": "1px",
-    "borderBottomWidth": "1px",
-    "borderLeftWidth": "1px",
-    "borderTopStyle": "solid",
-    "borderRightStyle": "solid",
-    "borderBottomStyle": "solid",
-    "borderLeftStyle": "solid",
-    "borderTopColor": "#C71585",
-    "borderRightColor": "#C71585",
-    "borderBottomColor": "#C71585",
-    "borderLeftColor": "#C71585",
     "marginLeft": "53px",
     "marginRight": "55px",
     "display": "flex",
@@ -220,34 +237,10 @@ module.exports = {
     "marginBottom": "10px"
   },
   ".fuelindicator": {
-    "borderTopWidth": "1px",
-    "borderRightWidth": "1px",
-    "borderBottomWidth": "1px",
-    "borderLeftWidth": "1px",
-    "borderTopStyle": "solid",
-    "borderRightStyle": "solid",
-    "borderBottomStyle": "solid",
-    "borderLeftStyle": "solid",
-    "borderTopColor": "#EE82EE",
-    "borderRightColor": "#EE82EE",
-    "borderBottomColor": "#EE82EE",
-    "borderLeftColor": "#EE82EE",
     "marginTop": "54.84px",
     "height": "48.59px"
   },
   ".fuel-read": {
-    "borderTopWidth": "1px",
-    "borderRightWidth": "1px",
-    "borderBottomWidth": "1px",
-    "borderLeftWidth": "1px",
-    "borderTopStyle": "solid",
-    "borderRightStyle": "solid",
-    "borderBottomStyle": "solid",
-    "borderLeftStyle": "solid",
-    "borderTopColor": "#0000FF",
-    "borderRightColor": "#0000FF",
-    "borderBottomColor": "#0000FF",
-    "borderLeftColor": "#0000FF",
     "display": "flex",
     "alignItems": "flex-end"
   }
@@ -255,11 +248,12 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/json.js!./lib/template.js!../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml":
-/*!**********************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/template.js!../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml ***!
-  \**********************************************************************************************************************************************/
-/***/ ((module) => {
+/***/ "./lib/json.js!./lib/template.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/template.js!/Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
 module.exports = {
   "attr": {
@@ -285,7 +279,7 @@ module.exports = {
           "attr": {
             "debugLine": "pages/index/index:12",
             "className": "image",
-            "src": "/common/images/header/left_indicator_on.png",
+            "src": function () {return this.leftindicator},
             "alt": "left_indicator"
           },
           "type": "image",
@@ -300,7 +294,7 @@ module.exports = {
           "attr": {
             "debugLine": "pages/index/index:13",
             "className": "image",
-            "src": "/common/images/header/low_beam.png",
+            "src": function () {return this.lowbeam},
             "alt": "low_beam"
           },
           "type": "image",
@@ -312,7 +306,7 @@ module.exports = {
           "attr": {
             "debugLine": "pages/index/index:14",
             "className": "image",
-            "src": "/common/images/header/bluetooth.png",
+            "src": function () {return this.bluetooth},
             "alt": "bluetooth"
           },
           "type": "image",
@@ -323,7 +317,7 @@ module.exports = {
         {
           "attr": {
             "debugLine": "pages/index/index:15",
-            "value": "0 1  :  2 0  P M"
+            "value": function () {return this.time}
           },
           "type": "text",
           "style": {
@@ -336,7 +330,7 @@ module.exports = {
           "attr": {
             "debugLine": "pages/index/index:16",
             "className": "image",
-            "src": "/common/images/header/side_stand.png",
+            "src": function () {return this.sidestand},
             "alt": "sidestand"
           },
           "type": "image",
@@ -348,7 +342,7 @@ module.exports = {
           "attr": {
             "debugLine": "pages/index/index:17",
             "className": "image",
-            "src": "/common/images/header/high_beam_on.png",
+            "src": function () {return this.highbeam},
             "alt": "high_beam"
           },
           "type": "image",
@@ -360,7 +354,7 @@ module.exports = {
           "attr": {
             "debugLine": "pages/index/index:18",
             "className": "image",
-            "src": "/common/images/header/right_indicator_off.png",
+            "src": function () {return this.indicatoroff},
             "alt": "right_beam"
           },
           "type": "image",
@@ -399,25 +393,13 @@ module.exports = {
               },
               "type": "div",
               "style": {
-                "borderTopWidth": "2px",
-                "borderRightWidth": "2px",
-                "borderBottomWidth": "2px",
-                "borderLeftWidth": "2px",
-                "borderTopStyle": "solid",
-                "borderRightStyle": "solid",
-                "borderBottomStyle": "solid",
-                "borderLeftStyle": "solid",
-                "borderTopColor": "#800080",
-                "borderRightColor": "#800080",
-                "borderBottomColor": "#800080",
-                "borderLeftColor": "#800080",
                 "marginTop": "49.63px"
               },
               "children": [
                 {
                   "attr": {
                     "debugLine": "pages/index/index:30",
-                    "value": "Front 30 PSI"
+                    "value": function () {return this.Front30PSI}
                   },
                   "type": "text",
                   "style": {
@@ -430,7 +412,7 @@ module.exports = {
                 {
                   "attr": {
                     "debugLine": "pages/index/index:31",
-                    "value": "Rear 32 PSI"
+                    "value": function () {return this.Rear32PSI}
                   },
                   "type": "text",
                   "style": {
@@ -447,25 +429,13 @@ module.exports = {
               },
               "type": "div",
               "style": {
-                "borderTopWidth": "1px",
-                "borderRightWidth": "1px",
-                "borderBottomWidth": "1px",
-                "borderLeftWidth": "1px",
-                "borderTopStyle": "solid",
-                "borderRightStyle": "solid",
-                "borderBottomStyle": "solid",
-                "borderLeftStyle": "solid",
-                "borderTopColor": "#FFFF00",
-                "borderRightColor": "#FFFF00",
-                "borderBottomColor": "#FFFF00",
-                "borderLeftColor": "#FFFF00",
                 "marginTop": "87.41px"
               },
               "children": [
                 {
                   "attr": {
                     "debugLine": "pages/index/index:36",
-                    "value": "E"
+                    "value": function () {return this.E}
                   },
                   "type": "text",
                   "style": {
@@ -476,7 +446,7 @@ module.exports = {
                 {
                   "attr": {
                     "debugLine": "pages/index/index:37",
-                    "value": "R"
+                    "value": function () {return this.R}
                   },
                   "type": "text",
                   "style": {
@@ -488,7 +458,7 @@ module.exports = {
                 {
                   "attr": {
                     "debugLine": "pages/index/index:38",
-                    "value": "SPORT"
+                    "value": function () {return this.SPORT}
                   },
                   "type": "text",
                   "style": {
@@ -521,7 +491,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:42",
+                "debugLine": "pages/index/index:43",
                 "className": "fuelindicator"
               },
               "type": "div",
@@ -531,8 +501,8 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:44",
-                    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAxCAYAAACoJ+s+AAAABHNCSVQICAgIfAhkiAAAAhhJREFUWEftmeFRwzAMhckEtBMAG3QD2gkoE9ARwgTABMAGMAEwAdmgbEA2oJ0gvOdTeq6b2E4aiH5Yd76ksRx/kS1LdrMTR6qqmuPRHQqvQ0qBlz1kWcZrtGS2psB9Rrfup3gNyPfYpi7gGg1nsY176pUAvGgYuQmeTVBX2nUuYGVV3uL+qyeE24ydv9UPAbHXL59j9L4FcBoLuOg6X3wfA4Ddx7cAmnq3zmfBBOg4qF4LYvTPAcs5qHOIAZiD7VEzINfFK5WA9vBqBbwHGEOrEVXLDKzHqMXotRNtgAehVRugHVo7D7Evch1VV1vJDn/BOQjlvcl6FEG48TMgc+lzLuqXXieRbIIr+n/IBoB7WYtlTRqKH7AxwDVNk7n/ktR1BvRfoD9jRQjTPCa2pRpAUsmi/YRbRpVXAK5UAQokk9sS5ZRWVgcokGa4E6DPyZrSfsthkwWDK1SyYNBEAYVkwWTBtFCH5wAXYwqTghdbvc5sRg11FlBTbjh+JAHgAsUclrblhqNakJ3XSXICDPvDoUayYB+r2W3Egkztz1Cm9S5OMuofXHmgPm7KDyfh+neDwuM3Htpzq8lzwhXKB/CWo+5JAMgNEreYtKItW/yYqdh2CiRPWOccVgHO1W3c2+b0qEMc42j6AeW4gZO0iPmiAXU457aYa96/2xgPzZozYMedXuXbm/BFBFzSpTu9dThlplo8LGqVX2Mq0EETO4+WAAAAAElFTkSuQmCC",
+                    "debugLine": "pages/index/index:45",
+                    "src": function () {return this.fuel},
                     "value": "/"
                   },
                   "type": "image",
@@ -542,7 +512,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:53",
+                    "debugLine": "pages/index/index:54",
                     "className": "fuel-read"
                   },
                   "type": "div",
@@ -552,8 +522,8 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:54",
-                        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAECAYAAACDQW/RAAAABHNCSVQICAgIfAhkiAAAABRJREFUGFdjfGeo9Z+BCoBx+BoEAG6ACSXpy5PJAAAAAElFTkSuQmCC"
+                        "debugLine": "pages/index/index:55",
+                        "src": function () {return this.level10}
                       },
                       "type": "image",
                       "style": {
@@ -564,8 +534,8 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:55",
-                        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAALCAYAAAByF90EAAAABHNCSVQICAgIfAhkiAAAAB9JREFUKFNjfGeo9Z+BCoBx1CCCoTgaRgSDiGHwhREAx80ZJJCo6UUAAAAASUVORK5CYII="
+                        "debugLine": "pages/index/index:56",
+                        "src": function () {return this.level20}
                       },
                       "type": "image",
                       "style": {
@@ -576,8 +546,8 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:56",
-                        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAYAAACdkl3yAAAABHNCSVQICAgIfAhkiAAAAClJREFUOE9jfNHC8J+BCoBx1CCCoTgaRgSDiGE0jEbDiHAIEFYx+NIRANPtLgVbRa9kAAAAAElFTkSuQmCC"
+                        "debugLine": "pages/index/index:57",
+                        "src": function () {return this.level40}
                       },
                       "type": "image",
                       "style": {
@@ -588,8 +558,8 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:58",
-                        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAbCAYAAABxwd+fAAAABHNCSVQICAgIfAhkiAAAADNJREFUOE9jfNHC8J+BCoBx1CCCoTgaRgSDiGE0jEbDiHAIEFYxmo5Gw4hwCBBWMfjSEQCEQ0FlXx8EJwAAAABJRU5ErkJggg=="
+                        "debugLine": "pages/index/index:59",
+                        "src": function () {return this.level60}
                       },
                       "type": "image",
                       "style": {
@@ -600,8 +570,8 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:59",
-                        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAoCAYAAADzL6qcAAAABHNCSVQICAgIfAhkiAAAAD9JREFUSEvt0rERADAIw0A8C8Nl2ewURlBDF1HrKP6cvufVwsVHqKgREpVGGrEAF+5IIxbgwh1pxAJcuKOvjQZLr11xypjmkQAAAABJRU5ErkJggg=="
+                        "debugLine": "pages/index/index:60",
+                        "src": function () {return this.level80}
                       },
                       "type": "image",
                       "style": {
@@ -612,8 +582,8 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:61",
-                        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAxCAYAAADX9vnPAAAABHNCSVQICAgIfAhkiAAAAENJREFUSEvt0qENADAMBLFmmey/YTuCSeEFnwKsn92958NNj6iYEYlORhlZwEU7ysgCLtpRRhZw0Y4ysoCLdpSRBVw8G7NG09FVLl0AAAAASUVORK5CYII="
+                        "debugLine": "pages/index/index:62",
+                        "src": function () {return this.level100}
                       },
                       "type": "image",
                       "style": {
@@ -626,8 +596,8 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:65",
-                    "value": "80%"
+                    "debugLine": "pages/index/index:66",
+                    "value": function () {return 80}
                   },
                   "type": "text",
                   "style": {
@@ -640,7 +610,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:70",
+                "debugLine": "pages/index/index:71",
                 "className": "EKL"
               },
               "type": "div",
@@ -650,13 +620,13 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:71"
+                    "debugLine": "pages/index/index:72"
                   },
                   "type": "div",
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:72",
+                        "debugLine": "pages/index/index:73",
                         "className": "min-progress",
                         "type": "horizontal",
                         "percent": "70"
@@ -668,8 +638,8 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:73",
-                        "value": "110"
+                        "debugLine": "pages/index/index:74",
+                        "value": function () {return 110}
                       },
                       "type": "text",
                       "style": {
@@ -683,14 +653,14 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:75"
+                    "debugLine": "pages/index/index:76"
                   },
                   "type": "div",
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:76",
-                        "value": "Est Km Range Left"
+                        "debugLine": "pages/index/index:77",
+                        "value": function () {return this.Ekm}
                       },
                       "type": "text",
                       "style": {
@@ -707,7 +677,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:84",
+            "debugLine": "pages/index/index:85",
             "className": "middle"
           },
           "type": "div",
@@ -717,7 +687,7 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:86",
+                "debugLine": "pages/index/index:87",
                 "className": "caller"
               },
               "type": "div",
@@ -727,7 +697,7 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:87",
+                    "debugLine": "pages/index/index:88",
                     "className": "call"
                   },
                   "type": "div",
@@ -737,15 +707,15 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:88",
-                        "src": "/common/images/middle/user_pic.png"
+                        "debugLine": "pages/index/index:89",
+                        "src": function () {return this.callericon}
                       },
                       "type": "image"
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:89",
-                        "value": "Kate Cross"
+                        "debugLine": "pages/index/index:90",
+                        "value": function () {return this.callername}
                       },
                       "type": "text",
                       "style": {
@@ -755,8 +725,8 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:90",
-                        "src": "/common/images/middle/call_connect.png"
+                        "debugLine": "pages/index/index:91",
+                        "src": function () {return this.callaccept}
                       },
                       "type": "image",
                       "style": {
@@ -765,8 +735,8 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:91",
-                        "src": "/common/images/middle/call_disconnect.png"
+                        "debugLine": "pages/index/index:92",
+                        "src": function () {return this.callreject}
                       },
                       "type": "image",
                       "style": {
@@ -777,8 +747,8 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:93",
-                    "value": "Incoming call...."
+                    "debugLine": "pages/index/index:94",
+                    "value": function () {return this.Incomingcall}
                   },
                   "type": "text",
                   "style": {
@@ -791,7 +761,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:96",
+                "debugLine": "pages/index/index:97",
                 "className": "speedometer"
               },
               "type": "div",
@@ -801,21 +771,21 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:97",
-                    "value": "48"
+                    "debugLine": "pages/index/index:98",
+                    "value": function () {return 48}
                   },
                   "type": "text",
                   "style": {
                     "color": "#FFFFFF",
-                    "fontSize": "96px",
+                    "fontSize": "90px",
                     "fontWeight": "800",
                     "marginTop": "34.5px"
                   }
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:98",
-                    "value": "60 Km/h"
+                    "debugLine": "pages/index/index:99",
+                    "value": function () {return this.Kmh}
                   },
                   "type": "text",
                   "style": {
@@ -826,8 +796,8 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:100",
-                    "value": "Average Speed"
+                    "debugLine": "pages/index/index:101",
+                    "value": function () {return this.avg}
                   },
                   "type": "text",
                   "style": {
@@ -838,8 +808,8 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:103",
-                    "value": "2762 Kms"
+                    "debugLine": "pages/index/index:104",
+                    "value": function () {return this.Kms}
                   },
                   "type": "text",
                   "style": {
@@ -854,7 +824,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:116",
+            "debugLine": "pages/index/index:117",
             "className": "right"
           },
           "type": "div",
@@ -864,8 +834,8 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:118",
-                "src": "/common/images/right/music_image.png"
+                "debugLine": "pages/index/index:119",
+                "src": function () {return this.music_cover}
               },
               "type": "image",
               "style": {
@@ -875,8 +845,8 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:119",
-                "value": "In the Name of Love"
+                "debugLine": "pages/index/index:120",
+                "value": function () {return this.song_name}
               },
               "type": "text",
               "style": {
@@ -887,8 +857,8 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:120",
-                "value": "Album Name"
+                "debugLine": "pages/index/index:121",
+                "value": function () {return this.album_name}
               },
               "type": "text",
               "style": {
@@ -899,7 +869,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:122",
+                "debugLine": "pages/index/index:123",
                 "className": "musicProgress"
               },
               "type": "div",
@@ -909,13 +879,13 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:123"
+                    "debugLine": "pages/index/index:124"
                   },
                   "type": "div",
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:124",
+                        "debugLine": "pages/index/index:125",
                         "className": "musicbar",
                         "type": "horizontal",
                         "percent": "70"
@@ -929,14 +899,14 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:127"
+                    "debugLine": "pages/index/index:128"
                   },
                   "type": "div",
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:128",
-                        "value": "00:00"
+                        "debugLine": "pages/index/index:129",
+                        "value": function () {return this.music_start_timestamp}
                       },
                       "type": "text",
                       "style": {
@@ -947,8 +917,8 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:129",
-                        "value": "04:55"
+                        "debugLine": "pages/index/index:130",
+                        "value": function () {return this.music_stop_timestamp}
                       },
                       "type": "text",
                       "style": {
@@ -964,7 +934,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:134",
+                "debugLine": "pages/index/index:135",
                 "className": "musicButtons"
               },
               "type": "div",
@@ -974,8 +944,8 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:135",
-                    "src": "/common/images/right/previous.png"
+                    "debugLine": "pages/index/index:136",
+                    "src": function () {return this.previousplay}
                   },
                   "type": "image",
                   "style": {
@@ -985,8 +955,8 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:136",
-                    "src": "/common/images/right/pause.png"
+                    "debugLine": "pages/index/index:137",
+                    "src": function () {return this.pause}
                   },
                   "type": "image",
                   "style": {
@@ -996,8 +966,8 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:137",
-                    "src": "/common/images/right/next_on.png"
+                    "debugLine": "pages/index/index:138",
+                    "src": function () {return this.nextplay}
                   },
                   "type": "image",
                   "style": {
@@ -1013,7 +983,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:145",
+        "debugLine": "pages/index/index:146",
         "className": "child-container3"
       },
       "type": "div",
@@ -1023,8 +993,8 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:146",
-            "src": "/common/images/bottom/menu.png"
+            "debugLine": "pages/index/index:147",
+            "src": function () {return this.menu}
           },
           "type": "image",
           "style": {
@@ -1034,8 +1004,8 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:147",
-            "src": "/common/images/bottom/location.png"
+            "debugLine": "pages/index/index:148",
+            "src": function () {return this.location}
           },
           "type": "image",
           "style": {
@@ -1045,8 +1015,8 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:148",
-            "src": "/common/images/bottom/home.png"
+            "debugLine": "pages/index/index:149",
+            "src": function () {return this.home}
           },
           "type": "image",
           "style": {
@@ -1056,8 +1026,8 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:149",
-            "src": "/common/images/bottom/Hearphone_select.png"
+            "debugLine": "pages/index/index:150",
+            "src": function () {return this.headset}
           },
           "type": "image",
           "style": {
@@ -1067,8 +1037,8 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:150",
-            "src": "/common/images/bottom/contact_icon.png"
+            "debugLine": "pages/index/index:151",
+            "src": function () {return this.phone}
           },
           "type": "image",
           "style": {
@@ -1083,11 +1053,12 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=/Users/manju/Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.js":
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.js":
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=/Users/manju/Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.js ***!
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!/Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.js ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module) => {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
 module.exports = function(module, exports, $app_require$){"use strict";
 
@@ -1097,11 +1068,53 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = void 0;
 var _default = {
   data: {
-    title: ""
+    title: "This is  title",
+    leftindicator: "/common/images/header/left_indicator_on.png",
+    lowbeam: "/common/images/header/low_beam.png",
+    bluetooth: "/common/images/header/bluetooth.png",
+    sidestand: "/common/images/header/side_stand.png",
+    highbeam: "/common/images/header/high_beam_on.png",
+    indicatoroff: "/common/images/header/right_indicator_off.png",
+    fuel: "/common/images/left/fuel.png",
+    level10: "/common/images/left/level_10.png",
+    level20: "/common/images/left/level_20.png",
+    level40: "/common/images/left/level_40.png",
+    level60: "/common/images/left/level_60.png",
+    level80: "/common/images/left/level_80.png",
+    level100: "/common/images/left/level_100.png",
+    callericon: "/common/images/middle/user_pic.png",
+    callaccept: "/common/images/middle/call_connect.png",
+    callreject: "/common/images/middle/call_disconnect.png",
+    music_cover: "/common/images/right/music_image.png",
+    previousplay: "/common/images/right/previous.png",
+    pause: "/common/images/right/pause.png",
+    nextplay: "/common/images/right/next_on.png",
+    menu: "/common/images/bottom/menu.png",
+    location: "/common/images/bottom/location.png",
+    home: "/common/images/bottom/home.png",
+    headset: "/common/images/bottom/Hearphone_select.png",
+    phone: "/common/images/bottom/contact_icon.png",
+    Front30PSI: "Front 30 PSI",
+    Rear32PSI: "Rear 32 PSI",
+    E: "E",
+    R: "R",
+    SPORT: "SPORT",
+    80: "80 %",
+    110: "110",
+    Ekm: "Est Km Range Left",
+    time: "01 : 20 PM",
+    callername: "Kate Cross",
+    Incomingcall: "Incoming call ... ",
+    48: "48",
+    Kmh: "60 Km/h",
+    avg: "Average Speed",
+    Kms: "2762 Kms",
+    song_name: "In the Name of Love",
+    album_name: "Album Name",
+    music_start_timestamp: "00:00",
+    music_stop_timestamp: "04:55"
   },
-  onInit: function onInit() {
-    this.title = this.$t('strings.world');
-  }
+  onInit: function onInit() {}
 };
 exports["default"] = _default;
 
@@ -1168,58 +1181,5 @@ if (moduleOwn.data && accessors.some(function (acc) {
 
 /***/ })
 
-/******/ 	});
-/************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/************************************************************************/
-var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
-/*!********************************************************************************************************************!*\
-  !*** ../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml?entry ***!
-  \********************************************************************************************************************/
-var $app_template$ = __webpack_require__(/*! !!../../../../../../../../../Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/lib/json.js!../../../../../../../../../Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/lib/template.js!./index.hml */ "./lib/json.js!./lib/template.js!../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml")
-var $app_style$ = __webpack_require__(/*! !!../../../../../../../../../Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/lib/json.js!../../../../../../../../../Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/lib/style.js!./index.css */ "./lib/json.js!./lib/style.js!../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.css")
-var $app_script$ = __webpack_require__(/*! !!../../../../../../../../../Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/lib/script.js!../../../../../../../../../Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/node_modules/babel-loader?presets[]=/Users/manju/Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!../../../../../../../../../Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/lib/resource-reference-script.js!./index.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=/Users/manju/Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK-offline-3.0.0.0-mac/js/3.0.0.0/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.js")
-
-$app_define$('@app-component/index', [], function($app_require$, $app_exports$, $app_module$) {
-
-$app_script$($app_module$, $app_exports$, $app_require$)
-if ($app_exports$.__esModule && $app_exports$.default) {
-$app_module$.exports = $app_exports$.default
-}
-
-$app_module$.exports.template = $app_template$
-
-$app_module$.exports.style = $app_style$
-
-})
-$app_bootstrap$('@app-component/index',undefined,undefined)
-})();
-
-/******/ })()
-;
+/******/ });
 //# sourceMappingURL=index.js.map

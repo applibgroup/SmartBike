@@ -10,7 +10,7 @@
     background-image: url("/common/images/indication_bg.png");
     height: 68.14px;
     width: 586px;
-    border:2px solid red;
+/*    border:2px solid red;*/
     background-repeat: no-repeat;
     background-position: center;
     justify-content: space-around;
@@ -51,7 +51,7 @@ image {
 .left{
     width: 330px;
     margin-left: 53px;
-    border:2px solid green;
+/*    border:2px solid green;*/
     display: flex;
     flex-direction: column;
 
@@ -62,7 +62,7 @@ image {
     width: 393px;
     height: 521px;
 /*    margin-right: 55px;*/
-    border:2px solid blue;
+/*    border:2px solid blue;*/
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -70,14 +70,14 @@ image {
 .middle{
     width: 393px;
     height: 521px;
-    border:2px solid yellow;
+/*    border:2px solid yellow;*/
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 .caller{
-    border: 2px solid violet;
+/*    border: 2px solid violet;*/
     background-image: url("/common/images/middle/info_bg.png");
     display: flex;
     flex-direction: column;
@@ -124,7 +124,7 @@ image {
     flex-direction:column;
     margin-top: 20px;
     width: 241px;
-    border: 1px solid green;
+/*    border: 1px solid green;*/
 
 
 }
@@ -138,7 +138,7 @@ image {
 }
 .musicButtons{
     width: 241px;
-    border: 1px solid mediumvioletred;
+/*    border: 1px solid mediumvioletred;*/
     height: 54px;
     margin-top: 35px;
     align-items: center;
@@ -148,7 +148,7 @@ image {
 .child-container3{
     height: 37px;
     width: 100%;
-    border: 1px solid mediumvioletred ;
+/*    border: 1px solid mediumvioletred ;*/
     margin-left: 53px;
     margin-right: 55px;
     display: flex;
@@ -157,14 +157,14 @@ image {
     margin-bottom: 10px;
 }
 .fuelindicator{
-    border: 1px solid violet;
+/*    border: 1px solid violet;*/
     margin-top: 54.84px;
 
     height: 48.59px;
 
 }
 .fuel-read{
-    border:1px solid blue;
+/*    border:1px solid blue;*/
     display: flex;
 /*    flex-direction: column;*/
     align-items: flex-end;
