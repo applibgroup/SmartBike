@@ -9,13 +9,13 @@
     <div class="child-container1">
 
 
-            <image class="image" src="{{leftindicator}}" alt="left_indicator"style="margin-left:36px;" />
-            <image class="image "src="{{lowbeam}}" alt="low_beam"/>
-            <image class="image "src="{{bluetooth}}" alt="bluetooth"/>
+            <image class="image"   src="{{leftindicator}}" onclick="leftindicatorclick" alt="left_indicator"style="margin-left:36px;" />
+            <image class="image " onclick="lowbeamonclick"  src="{{lowbeam}}" alt="low_beam"/>
+            <image class="image "src="{{bluetooth}}" onclick="bluetoothclick" alt="bluetooth"/>
              <text style="color: white;  font-weight: 800; font-size: 27.3px;"> {{time}} </text>
-            <image class="image "src="{{sidestand}}" alt="sidestand"/>
-            <image class="image "src="{{highbeam}}" alt="high_beam"/>
-            <image class="image "src="{{indicatoroff}}" style="margin-right:36px ;" alt="right_beam"/>
+            <image class="image "src="{{sidestand}}"  onclick="sidestandclick"  alt="sidestand"/>
+            <image class="image "src="{{highbeam}}"  onclick="highbeamclick"  alt="high_beam"/>
+            <image class="image "src="{{indicatoroff}}"  onclick="rightindicatorclick"  style="margin-right:36px ;" alt="right_beam"/>
 <!--        <text style="color: #FFFFFF; padding-left: 10px;">Hello world</text>-->
 
         <!--First row for header area-->
@@ -87,7 +87,7 @@
             <div class="caller">
                 <div class="call">
                 <image src="{{callericon}}" style=""></image>
-                <text style="font-size: 32px; color: white; ;"> {{callername}} </text>
+                <text style="font-size: 32px; color: white; ;" onclick="onclickcaller"> {{callername}} </text>
                 <image src="{{callaccept}}" style="margin-left: -2%;"></image>
                 <image src="{{callreject}}" style="margin-left: -2%;"></image>
                 </div>
@@ -144,11 +144,11 @@
     </div>
 
     <div class="child-container3">
-        <image src="{{menu}}"  style=" width:31px;height:31px"></image>
-        <image src="{{location}}"  style=" width:23px;height:30px"></image>
+        <image src="{{menu}}"  onclick="menuclick"  style=" width:31px;height:31px"></image>
+        <image src="{{location}}" onclick="locationclick" style=" width:23px;height:30px"></image>
         <image src="{{home}}"  style=" width:37px;height:37px;"></image>
-        <image src="{{headset}}"  style=" width:30px;height:30px"></image>
-        <image src="{{phone}}"  style=" width:30px;height:30px"></image>
+        <image src="{{headset}}"  onclick="hearphoneclick" style=" width:30px;height:30px"></image>
+        <image src="{{phone}}"  onclick="phoneclick" style=" width:30px;height:30px"></image>
 
     </div>
 

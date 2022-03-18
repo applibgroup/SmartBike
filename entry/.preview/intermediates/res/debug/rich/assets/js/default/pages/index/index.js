@@ -81,21 +81,21 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml?entry");
+/******/ 	return __webpack_require__(__webpack_require__.s = "../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.hml?entry");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml?entry":
-/*!***************************************************************************************************************!*\
-  !*** /Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml?entry ***!
-  \***************************************************************************************************************/
+/***/ "../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.hml?entry":
+/*!*********************************************************************************************************!*\
+  !*** /Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.hml?entry ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $app_template$ = __webpack_require__(/*! !../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/template.js!./index.hml */ "./lib/json.js!./lib/template.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml")
-var $app_style$ = __webpack_require__(/*! !../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/style.js!./index.css */ "./lib/json.js!./lib/style.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.css")
-var $app_script$ = __webpack_require__(/*! !../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/script.js!../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/babel-loader?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/resource-reference-script.js!./index.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.js")
+var $app_template$ = __webpack_require__(/*! !../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/template.js!./index.hml */ "./lib/json.js!./lib/template.js!../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.hml")
+var $app_style$ = __webpack_require__(/*! !../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/style.js!./index.css */ "./lib/json.js!./lib/style.js!../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.css")
+var $app_script$ = __webpack_require__(/*! !../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/script.js!../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/babel-loader?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!../../../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/resource-reference-script.js!./index.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.js")
 
 $app_define$('@app-component/index', [], function($app_require$, $app_exports$, $app_module$) {
 
@@ -113,10 +113,10 @@ $app_bootstrap$('@app-component/index',undefined,undefined)
 
 /***/ }),
 
-/***/ "./lib/json.js!./lib/style.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.css":
-/*!**************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/style.js!/Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.css ***!
-  \**************************************************************************************************************************************/
+/***/ "./lib/json.js!./lib/style.js!../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.css":
+/*!********************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/style.js!/Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.css ***!
+  \********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -248,10 +248,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/json.js!./lib/template.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml":
-/*!*****************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/template.js!/Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.hml ***!
-  \*****************************************************************************************************************************************/
+/***/ "./lib/json.js!./lib/template.js!../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.hml":
+/*!***********************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/template.js!/Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.hml ***!
+  \***********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -286,6 +286,9 @@ module.exports = {
           "classList": [
             "image"
           ],
+          "events": {
+            "click": "leftindicatorclick"
+          },
           "style": {
             "marginLeft": "36px"
           }
@@ -300,7 +303,10 @@ module.exports = {
           "type": "image",
           "classList": [
             "image"
-          ]
+          ],
+          "events": {
+            "click": "lowbeamonclick"
+          }
         },
         {
           "attr": {
@@ -312,7 +318,10 @@ module.exports = {
           "type": "image",
           "classList": [
             "image"
-          ]
+          ],
+          "events": {
+            "click": "bluetoothclick"
+          }
         },
         {
           "attr": {
@@ -336,7 +345,10 @@ module.exports = {
           "type": "image",
           "classList": [
             "image"
-          ]
+          ],
+          "events": {
+            "click": "sidestandclick"
+          }
         },
         {
           "attr": {
@@ -348,7 +360,10 @@ module.exports = {
           "type": "image",
           "classList": [
             "image"
-          ]
+          ],
+          "events": {
+            "click": "highbeamclick"
+          }
         },
         {
           "attr": {
@@ -361,6 +376,9 @@ module.exports = {
           "classList": [
             "image"
           ],
+          "events": {
+            "click": "rightindicatorclick"
+          },
           "style": {
             "marginRight": "36px"
           }
@@ -721,6 +739,9 @@ module.exports = {
                       "style": {
                         "fontSize": "32px",
                         "color": "#FFFFFF"
+                      },
+                      "events": {
+                        "click": "onclickcaller"
                       }
                     },
                     {
@@ -997,6 +1018,9 @@ module.exports = {
             "src": function () {return this.menu}
           },
           "type": "image",
+          "events": {
+            "click": "menuclick"
+          },
           "style": {
             "width": "31px",
             "height": "31px"
@@ -1008,6 +1032,9 @@ module.exports = {
             "src": function () {return this.location}
           },
           "type": "image",
+          "events": {
+            "click": "locationclick"
+          },
           "style": {
             "width": "23px",
             "height": "30px"
@@ -1030,6 +1057,9 @@ module.exports = {
             "src": function () {return this.headset}
           },
           "type": "image",
+          "events": {
+            "click": "hearphoneclick"
+          },
           "style": {
             "width": "30px",
             "height": "30px"
@@ -1041,6 +1071,9 @@ module.exports = {
             "src": function () {return this.phone}
           },
           "type": "image",
+          "events": {
+            "click": "phoneclick"
+          },
           "style": {
             "width": "30px",
             "height": "30px"
@@ -1053,10 +1086,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.js":
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!/Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/pages/index/index.js ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.js":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!/Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.js ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1069,8 +1102,8 @@ exports["default"] = void 0;
 var _default = {
   data: {
     title: "This is  title",
-    leftindicator: "/common/images/header/left_indicator_on.png",
-    lowbeam: "/common/images/header/low_beam.png",
+    leftindicator: '/common/images/header/left_indicator_on.png',
+    lowbeam: '/common/images/header/low_beam.png',
     bluetooth: "/common/images/header/bluetooth.png",
     sidestand: "/common/images/header/side_stand.png",
     highbeam: "/common/images/header/high_beam_on.png",
@@ -1094,6 +1127,16 @@ var _default = {
     home: "/common/images/bottom/home.png",
     headset: "/common/images/bottom/Hearphone_select.png",
     phone: "/common/images/bottom/contact_icon.png",
+    low_beamon: '/common/images/onClick/low_beam_on.png',
+    left_indicatoroff: '/common/images/onClick/left_indicator_off.png',
+    bluetooth_off: '/common/images/onClick/bluetooth_off.png',
+    side_stand_on: '/common/images/onClick/side_stand_on.png',
+    high_beam_off: '/common/images/onClick/high_beam_off.png',
+    right_indicator_on: '/common/images/onClick/right_indicator_on.png',
+    menu_select: '/common/images/onClick/menu_select.png',
+    location_select: '/common/images/onClick/location_select.png',
+    Hearphone_off: '/common/images/onClick/Hearphone.png',
+    contact_select: '/common/images/onClick/contact_select.png',
     Front30PSI: "Front 30 PSI",
     Rear32PSI: "Rear 32 PSI",
     E: "E",
@@ -1112,9 +1155,82 @@ var _default = {
     song_name: "In the Name of Love",
     album_name: "Album Name",
     music_start_timestamp: "00:00",
-    music_stop_timestamp: "04:55"
+    music_stop_timestamp: "04:55",
+    myname: "Ajith M"
   },
-  onInit: function onInit() {}
+  onInit: function onInit() {},
+  lowbeamonclick: function lowbeamonclick() {
+    if (this.lowbeam === '/common/images/header/low_beam.png') {
+      this.lowbeam = this.low_beamon;
+      console.info('Inside if condition of lowbeamonclick()');
+    } else {
+      this.lowbeam = '/common/images/header/low_beam.png';
+      console.info('Inside else condition of lowbeamonclick()');
+    }
+  },
+  leftindicatorclick: function leftindicatorclick() {
+    if (this.leftindicator === '/common/images/header/left_indicator_on.png') {
+      this.leftindicator = this.left_indicatoroff;
+    } else {
+      this.leftindicator = '/common/images/header/left_indicator_on.png';
+    }
+  },
+  bluetoothclick: function bluetoothclick() {
+    if (this.bluetooth === '/common/images/header/bluetooth.png') {
+      this.bluetooth = this.bluetooth_off;
+    } else {
+      this.bluetooth = '/common/images/header/bluetooth.png';
+    }
+  },
+  sidestandclick: function sidestandclick() {
+    if (this.sidestand === "/common/images/header/side_stand.png") {
+      this.sidestand = this.side_stand_on;
+    } else {
+      this.sidestand = "/common/images/header/side_stand.png";
+    }
+  },
+  highbeamclick: function highbeamclick() {
+    if (this.highbeam === "/common/images/header/high_beam_on.png") {
+      this.highbeam = this.high_beam_off;
+    } else {
+      this.highbeam = "/common/images/header/high_beam_on.png";
+    }
+  },
+  rightindicatorclick: function rightindicatorclick() {
+    if (this.indicatoroff === "/common/images/header/right_indicator_off.png") {
+      this.indicatoroff = this.right_indicator_on;
+    } else {
+      this.indicatoroff = "/common/images/header/right_indicator_off.png";
+    }
+  },
+  menuclick: function menuclick() {
+    if (this.menu === "/common/images/bottom/menu.png") {
+      this.menu = this.menu_select;
+    } else {
+      this.menu = "/common/images/bottom/menu.png";
+    }
+  },
+  locationclick: function locationclick() {
+    if (this.location === "/common/images/bottom/location.png") {
+      this.location = this.location_select;
+    } else {
+      this.location = "/common/images/bottom/location.png";
+    }
+  },
+  hearphoneclick: function hearphoneclick() {
+    if (this.headset === "/common/images/bottom/Hearphone_select.png") {
+      this.headset = this.Hearphone_off;
+    } else {
+      this.headset = "/common/images/bottom/Hearphone_select.png";
+    }
+  },
+  phoneclick: function phoneclick() {
+    if (this.phone === "/common/images/bottom/contact_icon.png") {
+      this.phone = this.contact_select;
+    } else {
+      this.phone = "/common/images/bottom/contact_icon.png";
+    }
+  }
 };
 exports["default"] = _default;
 

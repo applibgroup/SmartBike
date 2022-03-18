@@ -3,8 +3,8 @@ export default {
         //Left
 
         title: "This is  title",
-        leftindicator:"/common/images/header/left_indicator_on.png",
-        lowbeam: "/common/images/header/low_beam.png",
+        leftindicator:'/common/images/header/left_indicator_on.png',
+        lowbeam: '/common/images/header/low_beam.png',
         bluetooth:"/common/images/header/bluetooth.png",
         sidestand:"/common/images/header/side_stand.png",
         highbeam:"/common/images/header/high_beam_on.png",
@@ -30,6 +30,21 @@ export default {
         phone:"/common/images/bottom/contact_icon.png",
 
 
+        //onclick images
+        low_beamon:'/common/images/onClick/low_beam_on.png',
+        left_indicatoroff:'/common/images/onClick/left_indicator_off.png',
+        bluetooth_off:'/common/images/onClick/bluetooth_off.png',
+        side_stand_on:'/common/images/onClick/side_stand_on.png',
+        high_beam_off:'/common/images/onClick/high_beam_off.png',
+        right_indicator_on:'/common/images/onClick/right_indicator_on.png',
+        menu_select:'/common/images/onClick/menu_select.png',
+        location_select:'/common/images/onClick/location_select.png',
+        Hearphone_off:'/common/images/onClick/Hearphone.png',
+        contact_select:'/common/images/onClick/contact_select.png',
+
+
+
+
         Front30PSI:"Front 30 PSI",
         Rear32PSI:"Rear 32 PSI",
         E:"E",
@@ -48,9 +63,13 @@ export default {
         song_name:"In the Name of Love",
         album_name:"Album Name",
         music_start_timestamp:"00:00",
-        music_stop_timestamp:"04:55"
+        music_stop_timestamp:"04:55",
 
 
+
+
+        //dummay values
+        myname:"Ajith M"
         //Middle
 
 
@@ -58,5 +77,136 @@ export default {
     },
     onInit() {
 //        this.title = this.$t('strings.world');
+    },
+
+    lowbeamonclick(){
+        if(this.lowbeam === '/common/images/header/low_beam.png'){
+
+            this.lowbeam=this.low_beamon;
+            console.info('Inside if condition of lowbeamonclick()');
+
+        }else{
+            this.lowbeam ='/common/images/header/low_beam.png' ;
+
+            console.info('Inside else condition of lowbeamonclick()');
+        }
+    },
+    leftindicatorclick(){
+        if(this.leftindicator === '/common/images/header/left_indicator_on.png'){
+
+            this.leftindicator=this.left_indicatoroff;
+//            console.info('Inside if condition of lowbeamonclick()');
+
+        }else{
+            this.leftindicator = '/common/images/header/left_indicator_on.png'
+
+//            console.info('Inside else condition of lowbeamonclick()');
+        }
+    },
+    bluetoothclick(){
+        if(this.bluetooth === '/common/images/header/bluetooth.png'){
+
+            this.bluetooth=this.bluetooth_off;
+            //            console.info('Inside if condition of lowbeamonclick()');
+
+        }else{
+            this.bluetooth = '/common/images/header/bluetooth.png';
+
+            //            console.info('Inside else condition of lowbeamonclick()');
+        }
+    },
+    sidestandclick(){
+        if(this.sidestand === "/common/images/header/side_stand.png"){
+
+            this.sidestand=this.side_stand_on;
+            //            console.info('Inside if condition of lowbeamonclick()');
+
+        }else{
+            this.sidestand ="/common/images/header/side_stand.png"
+
+            //            console.info('Inside else condition of lowbeamonclick()');
+        }
+    },
+    highbeamclick(){
+        if(this.highbeam==="/common/images/header/high_beam_on.png"){
+
+            this.highbeam= this.high_beam_off;
+            //            console.info('Inside if condition of lowbeamonclick()');
+
+        }else{
+            this.highbeam="/common/images/header/high_beam_on.png"
+
+            //            console.info('Inside else condition of lowbeamonclick()');
+        }
+    },
+    rightindicatorclick(){
+        if(this.indicatoroff==="/common/images/header/right_indicator_off.png"){
+
+            this.indicatoroff= this.right_indicator_on;
+            //            console.info('Inside if condition of lowbeamonclick()');
+
+        }else{
+            this.indicatoroff="/common/images/header/right_indicator_off.png";
+
+            //            console.info('Inside else condition of lowbeamonclick()');
+        }
+
+    },
+    menuclick(){
+        if(this.menu==="/common/images/bottom/menu.png"){
+
+            this.menu= this.menu_select;
+            //            console.info('Inside if condition of lowbeamonclick()');
+
+        }else{
+            this.menu="/common/images/bottom/menu.png";
+
+            //            console.info('Inside else condition of lowbeamonclick()');
+        }
+
+    },
+    locationclick(){
+        if(this.location==="/common/images/bottom/location.png"){
+
+            this.location=this.location_select;
+            //            console.info('Inside if condition of lowbeamonclick()');
+
+        }else{
+            this.location="/common/images/bottom/location.png"
+
+            //            console.info('Inside else condition of lowbeamonclick()');
+        }
+
+    },
+    hearphoneclick(){
+        if(this.headset==="/common/images/bottom/Hearphone_select.png"){
+
+            this.headset=this.Hearphone_off;
+            //            console.info('Inside if condition of lowbeamonclick()');
+
+        }else{
+            this.headset="/common/images/bottom/Hearphone_select.png"
+
+            //            console.info('Inside else condition of lowbeamonclick()');
+        }
+
+    },
+    phoneclick(){
+        if(this.phone==="/common/images/bottom/contact_icon.png"){
+
+            this.phone=this.contact_select;
+            //            console.info('Inside if condition of lowbeamonclick()');
+
+        }else{
+
+            this.phone="/common/images/bottom/contact_icon.png"
+            //            console.info('Inside else condition of lowbeamonclick()');
+        }
+
     }
+
+
+
+
+
 }

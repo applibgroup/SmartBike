@@ -7,5 +7,7 @@ The UI created is a Smart Console for SmartBikes powered by the next gen operati
 
 **SmartBikeDesign**
 
- <img src="design.png" width="508px" height="251px" alt="Alt text">
+ <video width="320" height="240" controls>
+   <source src="video.mov" type="video/mp4">
+ </video>
 

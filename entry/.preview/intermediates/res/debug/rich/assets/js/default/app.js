@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/app.js?entry");
+/******/ 	return __webpack_require__(__webpack_require__.s = "../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/app.js?entry");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/app.js?entry":
-/*!************************************************************************************************!*\
-  !*** /Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/app.js?entry ***!
-  \************************************************************************************************/
+/***/ "../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/app.js?entry":
+/*!******************************************************************************************!*\
+  !*** /Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/app.js?entry ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $app_script$ = __webpack_require__(/*! !../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/script.js!../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/babel-loader?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/resource-reference-script.js!../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/manifest-loader.js?path=/Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/app.js!./app.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=/Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/app.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/app.js")
+var $app_script$ = __webpack_require__(/*! !../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/script.js!../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/babel-loader?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/resource-reference-script.js!../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/manifest-loader.js?path=/Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/app.js!./app.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=/Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/app.js!../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/app.js")
 
       $app_define$('@app-application/app', [], function($app_require$, $app_exports$, $app_module$) {
       
@@ -107,10 +107,10 @@ var $app_script$ = __webpack_require__(/*! !../../../../../../../Huawei/SDK6/SDK
 
 /***/ }),
 
-/***/ "./lib/manifest-plugin.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/.preview/jsManifest/default/manifest.json":
-/*!**********************************************************************************************************************************!*\
-  !*** ./lib/manifest-plugin.js!/Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/.preview/jsManifest/default/manifest.json ***!
-  \**********************************************************************************************************************************/
+/***/ "./lib/manifest-plugin.js!../../../../../../../DevEcoStudioProjects/SmartBike/entry/.preview/jsManifest/default/manifest.json":
+/*!****************************************************************************************************************************!*\
+  !*** ./lib/manifest-plugin.js!/Users/manju/DevEcoStudioProjects/SmartBike/entry/.preview/jsManifest/default/manifest.json ***!
+  \****************************************************************************************************************************/
 /*! exports provided: appID, appName, versionName, versionCode, minPlatformVersion, pages, deviceType, window, default */
 /***/ (function(module) {
 
@@ -118,10 +118,10 @@ module.exports = JSON.parse("{\"appID\":\"com.example.smartbikedesign\",\"appNam
 
 /***/ }),
 
-/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=/Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/app.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/app.js":
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=/Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/app.js!/Users/manju/DevEcoStudioProjects/SmartBikeDesign/entry/src/main/js/default/app.js ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=/Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/app.js!../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/app.js":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=/Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/app.js!/Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/app.js ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -141,7 +141,7 @@ var _default = {
 };
 exports["default"] = _default;
 ;
-(exports["default"] || module.exports).manifest = __webpack_require__(/*! !../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/manifest-plugin.js!../../../../.preview/jsManifest/default/manifest.json */ "./lib/manifest-plugin.js!../../../../../../../DevEcoStudioProjects/SmartBikeDesign/entry/.preview/jsManifest/default/manifest.json");
+(exports["default"] || module.exports).manifest = __webpack_require__(/*! !../../../../../../../Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/lib/manifest-plugin.js!../../../../.preview/jsManifest/default/manifest.json */ "./lib/manifest-plugin.js!../../../../../../../DevEcoStudioProjects/SmartBike/entry/.preview/jsManifest/default/manifest.json");
 
 function requireModule(moduleName) {
   const systemList = ['system.router', 'system.app', 'system.prompt', 'system.configuration',
