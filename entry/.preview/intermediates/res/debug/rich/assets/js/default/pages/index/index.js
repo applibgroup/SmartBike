@@ -86,6 +86,39 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/i18n/callerName.json":
+/*!**************************************************************************************************!*\
+  !*** /Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/i18n/callerName.json ***!
+  \**************************************************************************************************/
+/*! exports provided: 0, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"callerName\":\"Ajith M\"}]");
+
+/***/ }),
+
+/***/ "../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/i18n/music_info.json":
+/*!**************************************************************************************************!*\
+  !*** /Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/i18n/music_info.json ***!
+  \**************************************************************************************************/
+/*! exports provided: 0, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"musicName\":\"In  the  Name  of  Love\",\"AlbumName\":\"Album Name\",\"musicCover\":\"/common/images/right/music_image.png\"}]");
+
+/***/ }),
+
+/***/ "../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/i18n/speed.json":
+/*!*********************************************************************************************!*\
+  !*** /Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/i18n/speed.json ***!
+  \*********************************************************************************************/
+/*! exports provided: 0, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"speedValue\":\"56\",\"Kmh\":\"60 Km/h\",\"Kms\":\"2462 Kms\"}]");
+
+/***/ }),
+
 /***/ "../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.hml?entry":
 /*!*********************************************************************************************************!*\
   !*** /Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.hml?entry ***!
@@ -257,7 +290,7 @@ module.exports = {
 
 module.exports = {
   "attr": {
-    "debugLine": "pages/index/index:6",
+    "debugLine": "pages/index/index:1",
     "className": "container1"
   },
   "type": "div",
@@ -267,7 +300,7 @@ module.exports = {
   "children": [
     {
       "attr": {
-        "debugLine": "pages/index/index:9",
+        "debugLine": "pages/index/index:2",
         "className": "child-container1"
       },
       "type": "div",
@@ -277,7 +310,7 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:12",
+            "debugLine": "pages/index/index:3",
             "className": "image",
             "src": function () {return this.leftindicator},
             "alt": "left_indicator"
@@ -295,7 +328,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:13",
+            "debugLine": "pages/index/index:4",
             "className": "image",
             "src": function () {return this.lowbeam},
             "alt": "low_beam"
@@ -310,7 +343,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:14",
+            "debugLine": "pages/index/index:5",
             "className": "image",
             "src": function () {return this.bluetooth},
             "alt": "bluetooth"
@@ -325,7 +358,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:15",
+            "debugLine": "pages/index/index:6",
             "value": function () {return this.time}
           },
           "type": "text",
@@ -337,7 +370,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:16",
+            "debugLine": "pages/index/index:7",
             "className": "image",
             "src": function () {return this.sidestand},
             "alt": "sidestand"
@@ -352,7 +385,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:17",
+            "debugLine": "pages/index/index:8",
             "className": "image",
             "src": function () {return this.highbeam},
             "alt": "high_beam"
@@ -367,7 +400,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:18",
+            "debugLine": "pages/index/index:9",
             "className": "image",
             "src": function () {return this.indicatoroff},
             "alt": "right_beam"
@@ -387,7 +420,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:26",
+        "debugLine": "pages/index/index:11",
         "className": "child-container2"
       },
       "type": "div",
@@ -397,7 +430,7 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:28",
+            "debugLine": "pages/index/index:12",
             "className": "left"
           },
           "type": "div",
@@ -407,7 +440,7 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:29"
+                "debugLine": "pages/index/index:13"
               },
               "type": "div",
               "style": {
@@ -416,7 +449,7 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:30",
+                    "debugLine": "pages/index/index:14",
                     "value": function () {return this.Front30PSI}
                   },
                   "type": "text",
@@ -429,7 +462,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:31",
+                    "debugLine": "pages/index/index:15",
                     "value": function () {return this.Rear32PSI}
                   },
                   "type": "text",
@@ -443,7 +476,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:35"
+                "debugLine": "pages/index/index:18"
               },
               "type": "div",
               "style": {
@@ -452,7 +485,7 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:36",
+                    "debugLine": "pages/index/index:19",
                     "value": function () {return this.E}
                   },
                   "type": "text",
@@ -463,7 +496,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:37",
+                    "debugLine": "pages/index/index:20",
                     "value": function () {return this.R}
                   },
                   "type": "text",
@@ -475,7 +508,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:38",
+                    "debugLine": "pages/index/index:21",
                     "value": function () {return this.SPORT}
                   },
                   "type": "text",
@@ -509,7 +542,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:43",
+                "debugLine": "pages/index/index:26",
                 "className": "fuelindicator"
               },
               "type": "div",
@@ -519,7 +552,7 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:45",
+                    "debugLine": "pages/index/index:27",
                     "src": function () {return this.fuel},
                     "value": "/"
                   },
@@ -530,7 +563,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:54",
+                    "debugLine": "pages/index/index:28",
                     "className": "fuel-read"
                   },
                   "type": "div",
@@ -540,7 +573,7 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:55",
+                        "debugLine": "pages/index/index:29",
                         "src": function () {return this.level10}
                       },
                       "type": "image",
@@ -552,7 +585,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:56",
+                        "debugLine": "pages/index/index:30",
                         "src": function () {return this.level20}
                       },
                       "type": "image",
@@ -564,7 +597,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:57",
+                        "debugLine": "pages/index/index:31",
                         "src": function () {return this.level40}
                       },
                       "type": "image",
@@ -576,7 +609,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:59",
+                        "debugLine": "pages/index/index:33",
                         "src": function () {return this.level60}
                       },
                       "type": "image",
@@ -588,7 +621,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:60",
+                        "debugLine": "pages/index/index:34",
                         "src": function () {return this.level80}
                       },
                       "type": "image",
@@ -600,7 +633,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:62",
+                        "debugLine": "pages/index/index:36",
                         "src": function () {return this.level100}
                       },
                       "type": "image",
@@ -614,7 +647,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:66",
+                    "debugLine": "pages/index/index:40",
                     "value": function () {return 80}
                   },
                   "type": "text",
@@ -628,7 +661,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:71",
+                "debugLine": "pages/index/index:42",
                 "className": "EKL"
               },
               "type": "div",
@@ -638,13 +671,13 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:72"
+                    "debugLine": "pages/index/index:43"
                   },
                   "type": "div",
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:73",
+                        "debugLine": "pages/index/index:44",
                         "className": "min-progress",
                         "type": "horizontal",
                         "percent": "70"
@@ -656,7 +689,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:74",
+                        "debugLine": "pages/index/index:45",
                         "value": function () {return 110}
                       },
                       "type": "text",
@@ -671,13 +704,13 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:76"
+                    "debugLine": "pages/index/index:47"
                   },
                   "type": "div",
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:77",
+                        "debugLine": "pages/index/index:48",
                         "value": function () {return this.Ekm}
                       },
                       "type": "text",
@@ -695,7 +728,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:85",
+            "debugLine": "pages/index/index:52",
             "className": "middle"
           },
           "type": "div",
@@ -705,17 +738,18 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:87",
+                "debugLine": "pages/index/index:53",
                 "className": "caller"
               },
               "type": "div",
               "classList": [
                 "caller"
               ],
+              "repeat": function () {return this.caller},
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:88",
+                    "debugLine": "pages/index/index:54",
                     "className": "call"
                   },
                   "type": "div",
@@ -725,15 +759,15 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:89",
+                        "debugLine": "pages/index/index:55",
                         "src": function () {return this.callericon}
                       },
                       "type": "image"
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:90",
-                        "value": function () {return this.callername}
+                        "debugLine": "pages/index/index:56",
+                        "value": function () {return this.$item.callerName}
                       },
                       "type": "text",
                       "style": {
@@ -746,7 +780,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:91",
+                        "debugLine": "pages/index/index:57",
                         "src": function () {return this.callaccept}
                       },
                       "type": "image",
@@ -756,7 +790,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:92",
+                        "debugLine": "pages/index/index:58",
                         "src": function () {return this.callreject}
                       },
                       "type": "image",
@@ -768,7 +802,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:94",
+                    "debugLine": "pages/index/index:60",
                     "value": function () {return this.Incomingcall}
                   },
                   "type": "text",
@@ -782,18 +816,19 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:97",
+                "debugLine": "pages/index/index:62",
                 "className": "speedometer"
               },
               "type": "div",
               "classList": [
                 "speedometer"
               ],
+              "repeat": function () {return this.speed},
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:98",
-                    "value": function () {return 48}
+                    "debugLine": "pages/index/index:63",
+                    "value": function () {return this.$item.speedValue}
                   },
                   "type": "text",
                   "style": {
@@ -805,8 +840,8 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:99",
-                    "value": function () {return this.Kmh}
+                    "debugLine": "pages/index/index:64",
+                    "value": function () {return this.$item.Kmh}
                   },
                   "type": "text",
                   "style": {
@@ -817,7 +852,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:101",
+                    "debugLine": "pages/index/index:66",
                     "value": function () {return this.avg}
                   },
                   "type": "text",
@@ -829,8 +864,8 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:104",
-                    "value": function () {return this.Kms}
+                    "debugLine": "pages/index/index:68",
+                    "value": function () {return this.$item.Kms}
                   },
                   "type": "text",
                   "style": {
@@ -845,18 +880,19 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:117",
+            "debugLine": "pages/index/index:72",
             "className": "right"
           },
           "type": "div",
           "classList": [
             "right"
           ],
+          "repeat": function () {return this.music},
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:119",
-                "src": function () {return this.music_cover}
+                "debugLine": "pages/index/index:73",
+                "src": function () {return this.$item.musicCover}
               },
               "type": "image",
               "style": {
@@ -866,8 +902,8 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:120",
-                "value": function () {return this.song_name}
+                "debugLine": "pages/index/index:74",
+                "value": function () {return this.$item.AlbumName}
               },
               "type": "text",
               "style": {
@@ -878,8 +914,8 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:121",
-                "value": function () {return this.album_name}
+                "debugLine": "pages/index/index:75",
+                "value": function () {return this.$item.musicName}
               },
               "type": "text",
               "style": {
@@ -890,7 +926,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:123",
+                "debugLine": "pages/index/index:76",
                 "className": "musicProgress"
               },
               "type": "div",
@@ -900,13 +936,13 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:124"
+                    "debugLine": "pages/index/index:77"
                   },
                   "type": "div",
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:125",
+                        "debugLine": "pages/index/index:78",
                         "className": "musicbar",
                         "type": "horizontal",
                         "percent": "70"
@@ -920,13 +956,13 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:128"
+                    "debugLine": "pages/index/index:80"
                   },
                   "type": "div",
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:129",
+                        "debugLine": "pages/index/index:81",
                         "value": function () {return this.music_start_timestamp}
                       },
                       "type": "text",
@@ -938,7 +974,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:130",
+                        "debugLine": "pages/index/index:82",
                         "value": function () {return this.music_stop_timestamp}
                       },
                       "type": "text",
@@ -955,7 +991,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:135",
+                "debugLine": "pages/index/index:85",
                 "className": "musicButtons"
               },
               "type": "div",
@@ -965,7 +1001,7 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:136",
+                    "debugLine": "pages/index/index:86",
                     "src": function () {return this.previousplay}
                   },
                   "type": "image",
@@ -976,7 +1012,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:137",
+                    "debugLine": "pages/index/index:87",
                     "src": function () {return this.pause}
                   },
                   "type": "image",
@@ -987,7 +1023,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:138",
+                    "debugLine": "pages/index/index:88",
                     "src": function () {return this.nextplay}
                   },
                   "type": "image",
@@ -1004,7 +1040,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:146",
+        "debugLine": "pages/index/index:92",
         "className": "child-container3"
       },
       "type": "div",
@@ -1014,7 +1050,7 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:147",
+            "debugLine": "pages/index/index:93",
             "src": function () {return this.menu}
           },
           "type": "image",
@@ -1028,7 +1064,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:148",
+            "debugLine": "pages/index/index:94",
             "src": function () {return this.location}
           },
           "type": "image",
@@ -1042,7 +1078,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:149",
+            "debugLine": "pages/index/index:95",
             "src": function () {return this.home}
           },
           "type": "image",
@@ -1053,7 +1089,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:150",
+            "debugLine": "pages/index/index:96",
             "src": function () {return this.headset}
           },
           "type": "image",
@@ -1067,7 +1103,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:151",
+            "debugLine": "pages/index/index:97",
             "src": function () {return this.phone}
           },
           "type": "image",
@@ -1091,14 +1127,23 @@ module.exports = {
   !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=/Users/manju/Huawei/SDK6/SDK-offline-2.2.0.3-mac 2/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!/Users/manju/DevEcoStudioProjects/SmartBike/entry/src/main/js/default/pages/index/index.js ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function(module, exports, $app_require$){"use strict";
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
+
+var _callerName = _interopRequireDefault(__webpack_require__(/*! ../../i18n/callerName.json */ "../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/i18n/callerName.json"));
+
+var _speed = _interopRequireDefault(__webpack_require__(/*! ../../i18n/speed.json */ "../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/i18n/speed.json"));
+
+var _music_info = _interopRequireDefault(__webpack_require__(/*! ../../i18n/music_info.json */ "../../../../../../../DevEcoStudioProjects/SmartBike/entry/src/main/js/default/i18n/music_info.json"));
+
 var _default = {
   data: {
     title: "This is  title",
@@ -1146,7 +1191,7 @@ var _default = {
     110: "110",
     Ekm: "Est Km Range Left",
     time: "01 : 20 PM",
-    callername: "Kate Cross",
+    callername: "",
     Incomingcall: "Incoming call ... ",
     48: "48",
     Kmh: "60 Km/h",
@@ -1156,9 +1201,17 @@ var _default = {
     album_name: "Album Name",
     music_start_timestamp: "00:00",
     music_stop_timestamp: "04:55",
-    myname: "Ajith M"
+    myname: "Ajith M",
+    caller: [],
+    speed: [],
+    music: []
   },
-  onInit: function onInit() {},
+  onInit: function onInit() {
+    setInterval(this.time_calc, 1000);
+    this.setCallerName();
+    this.setSpeed();
+    this.setMusic();
+  },
   lowbeamonclick: function lowbeamonclick() {
     if (this.lowbeam === '/common/images/header/low_beam.png') {
       this.lowbeam = this.low_beamon;
@@ -1230,6 +1283,41 @@ var _default = {
     } else {
       this.phone = "/common/images/bottom/contact_icon.png";
     }
+  },
+  time_calc: function time_calc() {
+    var today = new Date();
+    var hr = today.getHours();
+    var min = today.getMinutes();
+    var ampm = "PM";
+
+    if (hr > 12) {
+      hr = hr - 12;
+    } else {
+      ampm = "AM";
+    }
+
+    if (min >= 60) {
+      hr = hr + 1;
+      min = min - 60;
+    }
+
+    if (min < 10) {
+      min = "0" + min;
+    }
+
+    this.time = hr + ":" + min + " " + ampm;
+  },
+  setCallerName: function setCallerName() {
+    var d = JSON.stringify(_callerName["default"]);
+    this.caller = JSON.parse(d);
+  },
+  setSpeed: function setSpeed() {
+    var d = JSON.stringify(_speed["default"]);
+    this.speed = JSON.parse(d);
+  },
+  setMusic: function setMusic() {
+    var d = JSON.stringify(_music_info["default"]);
+    this.music = JSON.parse(d);
   }
 };
 exports["default"] = _default;
@@ -1293,6 +1381,64 @@ if (moduleOwn.data && accessors.some(function (acc) {
   });
 }}
 /* generated by ace-loader */
+
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+module.exports = _interopRequireDefault;
+
+function requireModule(moduleName) {
+  const systemList = ['system.router', 'system.app', 'system.prompt', 'system.configuration',
+  'system.image', 'system.device', 'system.mediaquery', 'ohos.animator', 'system.grid', 'system.resource']
+  var target = ''
+  if (systemList.includes(moduleName.replace('@', ''))) {
+    target = $app_require$('@app-module/' + moduleName.substring(1));
+    return target;
+  }
+  var shortName = moduleName.replace(/@[^.]+.([^.]+)/, '$1');
+  if (typeof ohosplugin !== 'undefined' && /@ohos/.test(moduleName)) {
+    target = ohosplugin;
+    for (let key of shortName.split('.')) {
+      target = target[key];
+      if(!target) {
+        break;
+      }
+    }
+    if (typeof target !== 'undefined') {
+      return target;
+    }
+  }
+  if (typeof systemplugin !== 'undefined') {
+    target = systemplugin;
+    for (let key of shortName.split('.')) {
+      target = target[key];
+      if(!target) {
+        break;
+      }
+    }
+    if (typeof target !== 'undefined') {
+      return target;
+    }
+  }
+  target = requireNapi(shortName);
+  return target;
+}
 
 
 /***/ })

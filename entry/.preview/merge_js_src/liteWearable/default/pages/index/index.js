@@ -1,3 +1,8 @@
+// @ts-nocheck
+import cn from '../../i18n/callerName.json';
+import sd from '../../i18n/speed.json';
+import ms from '../../i18n/music_info.json';
+
 export default {
     data: {
         //Left
@@ -53,8 +58,10 @@ export default {
         80:"80 %",
         110:"110",
         Ekm:"Est Km Range Left",
+
         time:"01 : 20 PM",
-        callername:"Kate Cross",
+
+        callername:"",
         Incomingcall:"Incoming call ... ",
         48:"48",
         Kmh:"60 Km/h",
@@ -68,15 +75,27 @@ export default {
 
 
 
+
         //dummay values
-        myname:"Ajith M"
+        myname:"Ajith M",
         //Middle
 
 
+        caller:[],
+        speed:[],
+        music:[]
 
     },
     onInit() {
 //        this.title = this.$t('strings.world');
+
+
+        setInterval(this.time_calc,1000);
+
+
+        this.setCallerName();
+        this.setSpeed();
+        this.setMusic();
     },
 
     lowbeamonclick(){
@@ -204,9 +223,45 @@ export default {
         }
 
     }
+    ,//using time API
+    time_calc(){
+        //      Getting Local time in UTC and convert it into IST
+        var today = new Date();
 
 
+        var hr = today.getHours();
+        var min = today.getMinutes();
+        var ampm="PM";
+        if(hr>12){hr=hr-12;}
+        else{ampm="AM";}
 
+        if (min>=60){
+            hr = hr+1;
+            min = min-60;
+
+        }
+        if (min<10){min = "0" + min;}
+        this.time = hr + ":" + min + " " + ampm;
+
+    },
+    setCallerName() {
+
+        let d=JSON.stringify(cn);
+        this.caller=JSON.parse(d);
+
+    },
+    setSpeed() {
+
+        let d=JSON.stringify(sd);
+        this.speed=JSON.parse(d);
+
+    },
+    setMusic() {
+
+        let d=JSON.stringify(ms);
+        this.music=JSON.parse(d);
+
+    }
 
 
 }
