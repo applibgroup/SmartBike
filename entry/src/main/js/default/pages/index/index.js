@@ -1,3 +1,19 @@
+/*
+ * Copyright (C) 2020-21 Application Library Engineering Group
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 // @ts-nocheck
 import cn from '../../i18n/callerName.json';
 import sd from '../../i18n/speed.json';
@@ -5,7 +21,7 @@ import ms from '../../i18n/music_info.json';
 
 export default {
     data: {
-        //Left
+
 
         title: "This is  title",
         leftindicator:'/common/images/header/left_indicator_on.png',
@@ -35,7 +51,7 @@ export default {
         phone:"/common/images/bottom/contact_icon.png",
 
 
-        //onclick images
+
         low_beamon:'/common/images/onClick/low_beam_on.png',
         left_indicatoroff:'/common/images/onClick/left_indicator_off.png',
         bluetooth_off:'/common/images/onClick/bluetooth_off.png',
@@ -76,9 +92,7 @@ export default {
 
 
 
-        //dummay values
         myname:"Ajith M",
-        //Middle
 
 
         caller:[],
@@ -87,7 +101,6 @@ export default {
 
     },
     onInit() {
-//        this.title = this.$t('strings.world');
 
 
         setInterval(this.time_calc,1000);
@@ -114,60 +127,50 @@ export default {
         if(this.leftindicator === '/common/images/header/left_indicator_on.png'){
 
             this.leftindicator=this.left_indicatoroff;
-//            console.info('Inside if condition of lowbeamonclick()');
 
         }else{
             this.leftindicator = '/common/images/header/left_indicator_on.png'
 
-//            console.info('Inside else condition of lowbeamonclick()');
         }
     },
     bluetoothclick(){
         if(this.bluetooth === '/common/images/header/bluetooth.png'){
 
             this.bluetooth=this.bluetooth_off;
-            //            console.info('Inside if condition of lowbeamonclick()');
 
         }else{
             this.bluetooth = '/common/images/header/bluetooth.png';
 
-            //            console.info('Inside else condition of lowbeamonclick()');
         }
     },
     sidestandclick(){
         if(this.sidestand === "/common/images/header/side_stand.png"){
 
             this.sidestand=this.side_stand_on;
-            //            console.info('Inside if condition of lowbeamonclick()');
 
         }else{
             this.sidestand ="/common/images/header/side_stand.png"
 
-            //            console.info('Inside else condition of lowbeamonclick()');
         }
     },
     highbeamclick(){
         if(this.highbeam==="/common/images/header/high_beam_on.png"){
 
             this.highbeam= this.high_beam_off;
-            //            console.info('Inside if condition of lowbeamonclick()');
 
         }else{
             this.highbeam="/common/images/header/high_beam_on.png"
 
-            //            console.info('Inside else condition of lowbeamonclick()');
         }
     },
     rightindicatorclick(){
         if(this.indicatoroff==="/common/images/header/right_indicator_off.png"){
 
             this.indicatoroff= this.right_indicator_on;
-            //            console.info('Inside if condition of lowbeamonclick()');
 
         }else{
             this.indicatoroff="/common/images/header/right_indicator_off.png";
 
-            //            console.info('Inside else condition of lowbeamonclick()');
         }
 
     },
@@ -175,12 +178,10 @@ export default {
         if(this.menu==="/common/images/bottom/menu.png"){
 
             this.menu= this.menu_select;
-            //            console.info('Inside if condition of lowbeamonclick()');
 
         }else{
             this.menu="/common/images/bottom/menu.png";
 
-            //            console.info('Inside else condition of lowbeamonclick()');
         }
 
     },
@@ -188,12 +189,10 @@ export default {
         if(this.location==="/common/images/bottom/location.png"){
 
             this.location=this.location_select;
-            //            console.info('Inside if condition of lowbeamonclick()');
 
         }else{
             this.location="/common/images/bottom/location.png"
 
-            //            console.info('Inside else condition of lowbeamonclick()');
         }
 
     },
@@ -201,12 +200,12 @@ export default {
         if(this.headset==="/common/images/bottom/Hearphone_select.png"){
 
             this.headset=this.Hearphone_off;
-            //            console.info('Inside if condition of lowbeamonclick()');
+
 
         }else{
             this.headset="/common/images/bottom/Hearphone_select.png"
 
-            //            console.info('Inside else condition of lowbeamonclick()');
+
         }
 
     },
@@ -214,18 +213,18 @@ export default {
         if(this.phone==="/common/images/bottom/contact_icon.png"){
 
             this.phone=this.contact_select;
-            //            console.info('Inside if condition of lowbeamonclick()');
+
 
         }else{
 
             this.phone="/common/images/bottom/contact_icon.png"
-            //            console.info('Inside else condition of lowbeamonclick()');
+
         }
 
     }
-    ,//using time API
+    ,
     time_calc(){
-        //      Getting Local time in UTC and convert it into IST
+
         var today = new Date();
 
 
