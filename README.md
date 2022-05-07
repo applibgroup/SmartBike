@@ -1,7 +1,7 @@
 # SmartBikeDesign
 
 
-UI library created using hml , CSS and JS  for **HarmonyOS Project**
+UI library created using hml , CSS and JS  for **OpenHarmony Project**
 
 The UI created is a Smart Console for SmartBikes powered by the next gen operating system HarmonyOS.
 
