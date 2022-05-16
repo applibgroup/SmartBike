@@ -1,0 +1,118 @@
+.container1{
+    display:flex;
+    flex-direction: column;
+    background-color:#2E2E2E ;
+    align-items: center;
+    border-radius:40px;
+}
+.child-container1{
+    background-image: url("/common/images/indication_bg.png");
+    height: 68.14px;
+    width: 586px;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3px;
+}
+image {
+    width: 43px;
+    height: 43px;
+}
+.child-container2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -40px;
+}
+.left{
+    width: 330px;
+    margin-left: 53px;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    width: 393px;
+    height: 521px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middle{
+    width: 393px;
+    height: 521px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caller{
+    background-image: url("/common/images/middle/info_bg.png");
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    height: 86px;
+    padding-top: 2%;
+}
+.call{
+    justify-content: space-around;
+}
+.speedometer{
+    margin-top:20px;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.231);
+    width:242px;
+    height:343px;
+    border-radius : 90px;
+    text-align:center;
+    display:flex;
+    flex-direction : column;
+}
+.min-progress {
+    width: 230px;
+    stroke-width:12px;
+    margin-top:5px;
+    color: #0cb3fc;
+    margin-bottom:-5px;
+}
+.EKL{
+    display:flex;
+    flex-direction:column;
+    margin-top: 50px;
+}
+
+.musicProgress{
+    display:flex;
+    flex-direction:column;
+    margin-top: 20px;
+    width: 241px;
+}
+.musicbar{
+    stroke-width:7px;
+    margin-top:5px;
+    color: white;
+    margin-bottom:-5px;
+}
+.musicButtons{
+    width: 241px;
+    height: 54px;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: space-around;
+}
+.child-container3{
+    height: 37px;
+    width: 100%;
+    margin-left: 53px;
+    margin-right: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.fuelindicator{
+    margin-top: 54.84px;
+    height: 48.59px;
+}
+.fuel-read{
+    display: flex;
+    align-items: flex-end;
+}
