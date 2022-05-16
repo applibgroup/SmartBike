@@ -1,18 +1,18 @@
 <div class="container1">
     <div class="child-container1">
-            <image class="image"   src="{{leftindicator}}" onclick="leftindicatorclick" alt="left_indicator"style="margin-left:36px;" />
-            <image class="image " onclick="lowbeamonclick"  src="{{lowbeam}}" alt="low_beam"/>
-            <image class="image "src="{{bluetooth}}" onclick="bluetoothclick" alt="bluetooth"/>
-             <text style="color: white;  font-weight: 800; font-size: 27.3px;"> {{time}} </text>
-            <image class="image "src="{{sidestand}}"  onclick="sidestandclick"  alt="sidestand"/>
-            <image class="image "src="{{highbeam}}"  onclick="highbeamclick"  alt="high_beam"/>
-            <image class="image "src="{{indicatoroff}}"  onclick="rightindicatorclick"  style="margin-right:36px ;" alt="right_beam"/>
+        <image class="image"   src="{{leftindicator}}" onclick="leftindicatorclick" alt="left_indicator"style="margin-left:36px;" />
+        <image class="image " onclick="lowbeamonclick"  src="{{lowbeam}}" alt="low_beam"/>
+        <image class="image "src="{{bluetooth}}" onclick="bluetoothclick" alt="bluetooth"/>
+        <text style="color: white;  font-weight: 800; font-size: 27.3px;"> {{time}} </text>
+        <image class="image "src="{{sidestand}}"  onclick="sidestandclick"  alt="sidestand"/>
+        <image class="image "src="{{highbeam}}"  onclick="highbeamclick"  alt="high_beam"/>
+        <image class="image "src="{{indicatoroff}}"  onclick="rightindicatorclick"  style="margin-right:36px ;" alt="right_beam"/>
     </div>
     <div class="child-container2">
         <div class="left">
             <div style="margin-top: 49.63px;">
-            <text style=" color:#8C8C8C ; font-size: 18px; padding-right: 17%; font-weight: 500;">{{Front30PSI}}</text>
-            <text style="  color:#8C8C8C;font-size: 18px; font-weight: 500;">{{Rear32PSI}}</text>
+                <text style=" color:#8C8C8C ; font-size: 18px; padding-right: 17%; font-weight: 500;">{{Front30PSI}}</text>
+                <text style="  color:#8C8C8C;font-size: 18px; font-weight: 500;">{{Rear32PSI}}</text>
             </div>
 
             <div style="margin-top: 87.41px;">
@@ -26,36 +26,36 @@
             <div class="fuelindicator">
                 <image src="{{fuel}}" style="margin-top: 5px;">/</image>
                 <div class="fuel-read">
-                <image src="{{level10}}" style="width:18px;height: 4px; margin-left: 10px;" ></image>
-                <image src="{{level20}}" style="width:18px;height: 11px; margin-left: 4px"></image>
-                <image src ="{{level40}}" style="width:18px;height: 19px; margin-left: 4px"></image>
+                    <image src="{{level10}}" style="width:18px;height: 4px; margin-left: 10px;" ></image>
+                    <image src="{{level20}}" style="width:18px;height: 11px; margin-left: 4px"></image>
+                    <image src ="{{level40}}" style="width:18px;height: 19px; margin-left: 4px"></image>
 
-                <image src="{{level60}}" style="width:18px;height: 27px; margin-left: 4px"></image>
-                <image
-                        src="{{level80}}" style="width:18px;height: 40px; margin-left: 4px"></image>
-                <image
-                        src="{{level100}}"  style="width:18px;height: 49px; margin-left: 4px" ></image>
+                    <image src="{{level60}}" style="width:18px;height: 27px; margin-left: 4px"></image>
+                    <image
+                            src="{{level80}}" style="width:18px;height: 40px; margin-left: 4px"></image>
+                    <image
+                            src="{{level100}}"  style="width:18px;height: 49px; margin-left: 4px" ></image>
                 </div>
-                
+
                 <text style="color: white; font-size: 31px; margin-left: 57px">{{80}}</text>
             </div>
             <div class="EKL">
                 <div>
                     <progress class="min-progress" type="horizontal" percent= "70"></progress>
-                     <text style="color: white;font-size: 26px; font-weight: 500; margin-left: 25px;">{{110}}</text>
+                    <text style="color: white;font-size: 26px; font-weight: 500; margin-left: 25px;">{{110}}</text>
                 </div>
                 <div>
-                <text style="color:#8C8C8C;margin-top: 10px; font-size:18px;color:#8C8C8C">{{Ekm}}</text>
+                    <text style="color:#8C8C8C;margin-top: 10px; font-size:18px;color:#8C8C8C">{{Ekm}}</text>
                 </div>
             </div>
         </div>
         <div class="middle">
             <div class="caller" for="{{caller}}">
                 <div class="call">
-                <image src="{{callericon}}" style=""></image>
-                <text style="font-size: 32px; color: white; ;" onclick="onclickcaller"> {{$item.callerName}} </text>
-                <image src="{{callaccept}}" style="margin-left: -2%;"></image>
-                <image src="{{callreject}}" style="margin-left: -2%;"></image>
+                    <image src="{{callericon}}" style=""></image>
+                    <text style="font-size: 32px; color: white; ;" onclick="onclickcaller"> {{$item.callerName}} </text>
+                    <image src="{{callaccept}}" style="margin-left: -2%;"></image>
+                    <image src="{{callreject}}" style="margin-left: -2%;"></image>
                 </div>
                 <text style="color: #8C8C8C; font-size: 14px; margin-left: 20%;">{{Incomingcall}}</text>
             </div>

@@ -13,13 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.smartbikedesign;
 
-import ohos.aafwk.ability.AbilityPackage;
-
-public class MyApplication extends AbilityPackage {
-    @Override
-    public void onInitialize() {
-        super.onInitialize();
+export default {
+    onCreate() {
+        console.info("Application onCreate");
+    },
+    onDestroy() {
+        console.info("Application onDestroy");
     }
-}
+};
